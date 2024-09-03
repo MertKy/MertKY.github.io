@@ -1,4 +1,3 @@
-// Sayfa yüklendiğinde çalışacak kodlar
 document.addEventListener('DOMContentLoaded', () => {
     // Ana sayfadaki buton işlevi
     const alertButton = document.getElementById('alertButton');
@@ -21,8 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Verileri kontrol etmek için bir uyarı göster
             alert(`Adınız: ${name}\nEmail: ${email}\nMesajınız: ${message}`);
-
-            // Burada veriyi sunucuya gönderme kodu ekleyebilirsiniz
         });
     }
 });
